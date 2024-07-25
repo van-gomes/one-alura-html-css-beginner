@@ -1,13 +1,6 @@
-*{
+* {
     margin: 0;
     padding: 0;;
-}
-
-.conteiner-main{
-    margin: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 body {
@@ -17,6 +10,25 @@ body {
     box-sizing: border-box;
 }
 
-.titulo-destaque {
+.container_main {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__content {
+    width: 615px;
+}
+
+.container__title {
+    font-size: 36px;
+}
+
+.container__title__highlighted {
     color:#22D4FD;
+}
+
+.container__text {
+    font-size: 24px;
 }
