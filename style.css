@@ -13,7 +13,7 @@ body {
 }
 
 .container_main {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +21,9 @@ body {
 
 .container__content {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .container__title {
@@ -38,5 +41,20 @@ body {
 }
 
 .container__buttons {
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__buttons__link {
+    width: 280px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    /* Primeiro valor do padding é para vertical e o segundo para horizontal */
+    padding: 21.5px 0px;
+    border-radius: 16px;
+    color: #000;
+    background-color: #22D4FD;
 }
