@@ -55,6 +55,9 @@ body {
 }
 
 .container__buttons__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -66,4 +69,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     /* Primeiro valor do padding é para vertical e o segundo para horizontal */
     padding: 21.5px 0px;
+}
+
+.container__buttons__link:hover {
+    background-color: #272727;
 }
