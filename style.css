@@ -42,19 +42,28 @@ body {
 
 .container__buttons {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.container__buttons__subtitulo {
+    font-family:'Krona One', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .container__buttons__link {
-    width: 280px;
-    font-size: 24px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    border: 2px solid #22D4FD;
+    width: 378px;
     text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
     text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
     /* Primeiro valor do padding é para vertical e o segundo para horizontal */
     padding: 21.5px 0px;
-    border-radius: 16px;
-    color: #000;
-    background-color: #22D4FD;
 }
