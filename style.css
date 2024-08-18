@@ -6,14 +6,29 @@
 }
 
 body {
-    height: 100vh;
     background-color: #000;
     color: #f6f6f6;
     box-sizing: border-box;
 }
 
+.header {
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+}
+
 .container_main {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,4 +88,14 @@ body {
 
 .container__buttons__link:hover {
     background-color: #272727;
+}
+
+.footer {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
