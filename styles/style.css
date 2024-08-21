@@ -124,7 +124,12 @@ body {
         justify-content: center;
     }
 
-    .container__content {
+    .container_main {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .container__content {
+        width: auto;
     }
 }
