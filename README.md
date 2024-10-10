@@ -17,18 +17,8 @@ O Site Portfólio é uma página estática desenvolvida para apresentar suas hab
 
 A estrutura de diretórios do projeto é a seguinte:
 
-site-portifolio/
-│
-├── index.html          # Página principal do portfólio
-├── aboutMe.html        # Página "Sobre Mim"
-├── assets/             # Imagens, ícones e outros arquivos de mídia
-│   ├── img/            # Imagens usadas no portfólio
-│   └── icons/          # Ícones usados no portfólio
-└── styles/             # Arquivos de estilo CSS
-    ├── main.css        # Estilos principais usados na página
-    └── about.css       # Estilos usados na página "Sobre Mim"
-
-
+﻿site-portifolio/ │ ├── index.html # Página principal do portfólio ├── aboutMe.html # Página "Sobre Mim" ├── assets/ # Imagens, ícones e outros arquivos de mídia │ ├── img/ # Imagens usadas no portfólio │ └── icons/ # Ícones usados no portfólio └── styles/ # Arquivos de estilo CSS ├── main.css # Estilos principais usados na página └── about.css # Estilos usados na página "Sobre Mim"
+ 
 ## Tecnologias Utilizadas
 
 - **HTML5**: Para a estruturação das páginas.
